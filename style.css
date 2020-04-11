@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*   
 Theme Name: Josh's Wordpress Site
 Theme URI: http://joshwhitkin.com
@@ -8,8 +8,6 @@ Author URI: http://joshwhitkin.com
 Version: 1
 */ 
 
-=======
->>>>>>> a1086d891d5991bd7e199dfe3acefd49919d6e99
 body{
 font-size:16px;
 font-family: arial, sans-serif;
@@ -25,11 +23,6 @@ color:#a99c9c ;
 
 a:hover{
 color: #ed7d1e;
-}
-
-.navbar-nav li a:hover {
-    
-background-color:transparent;
 }
 
 .navbar-brand {
@@ -49,17 +42,18 @@ color:darkorange;
 .navbar-toggle .icon-bar {
     background-color: white;
 }
+
+.navbar-nav li a:hover{
+background-color:transparent;
+}
+
 .herobg {
     background: url("images/header-bg.jpg") no-repeat center center;
     background-size: cover;/*make the background image cover the whole div proportionally*/
 /* do not pixel heights on divs- this is not responsive – instead padding on the children as a  percentage*/
     }
 
-    .herobg {
-    background: url("images/header-bg.jpg") no-repeat center center;
-    background-size: cover;/*make the background image cover the whole div proportionally*/
-/* do not pixel heights on divs- this is not responsive – instead padding on the children as a  percentage*/
-    }
+
 
 .herobg h1{
     font-family: 'Raleway', sans-serif;
